@@ -1,0 +1,62 @@
+*:before
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #add8e6
+}
+
+.eggwhite {
+  height: 300px;
+  width: 200px;
+  background-color: #ffffff;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  box-shadow: 20px 7px rgba(0,0,0,0.1); 
+}
+
+.eggyolk {
+  height: 150px;
+  width: 150px;
+  background-color: yellow;
+  margin: auto;
+  margin-top: 130px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  border-radius: 50% 50% 50% 50%;
+}
+
+.eyes {
+  content:"";
+  position: absolute;
+  height: 14px;
+  width: 14px;
+  background-color: black;
+  border-radius: 50%;
+  top: 180px;
+  left: 75px;
+  box-shadow: 40px 0 0 #010008,
+  -10px 15px 0 -2px pink,
+  50px 15px 0 -2px pink ;
+}
+ 
+.mouth {
+  position: absolute;
+  height: 15px;
+  width: 25px;
+  background-color: black;
+  margin-top: 70px;
+  margin-left: 65px;
+  border-radius: 20% 20% 60% 60%;
+  box-shadow: 1px 0 0 pink
+}
+
